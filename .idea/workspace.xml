@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2302719b-def3-4b30-b63b-4bbfa2de8186" name="Default Changelist" comment="" />
+    <list default="true" id="2302719b-def3-4b30-b63b-4bbfa2de8186" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/boot/ShipwreckControllerWebIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/boot/model/Shipwreck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-339">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/boot/App.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,11 +67,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/boot/ShipwreckRepositoryIntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="374">
+              <caret line="22" column="20" selection-start-line="20" selection-end-line="22" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/boot/ShipwreckControllerWebIntegrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,17 +92,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/boot/config/PersistenceConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -117,19 +126,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="49" selection-start-line="6" selection-end-line="6" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/boot/controller/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="44" />
-              <folding>
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -156,6 +152,9 @@
       <find>test</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -171,6 +170,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/boot/ShipwreckControllerTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/boot/ShipwreckRepositoryIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/boot/ShipwreckControllerWebIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-test.properties" />
       </list>
     </option>
   </component>
@@ -187,6 +188,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -231,36 +233,7 @@
               <item name="dasboot H2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="das-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dasboot H2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="das-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dasboot H2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="das-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dasboot H2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="das-boot" type="b2602c69:ProjectViewProjectNode" />
@@ -291,6 +264,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -322,21 +296,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="das-boot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.boot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.boot" />
-      <option name="MAIN_CLASS_NAME" value="com.boot.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AppTest.testApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="das-boot" />
       <extension name="coverage">
@@ -363,6 +322,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.boot" />
       <option name="MAIN_CLASS_NAME" value="com.boot.ShipwreckControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShipwreckControllerWebIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="das-boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.boot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.boot" />
+      <option name="MAIN_CLASS_NAME" value="com.boot.ShipwreckControllerWebIntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -402,10 +376,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ShipwreckRepositoryIntegrationTest" />
+        <item itemvalue="JUnit.ShipwreckControllerWebIntegrationTest" />
         <item itemvalue="JUnit.ShipwreckRepositoryIntegrationTest.testFindAll" />
         <item itemvalue="JUnit.ShipwreckControllerTest" />
         <item itemvalue="JUnit.AppTest.testApp" />
-        <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -423,15 +397,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_testApp - 2019.07.19 at 11h 19m 46s.xml">
-      <configuration name="AppTest.testApp" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShipwreckControllerTest - 2019.07.19 at 11h 24m 23s.xml">
-      <configuration name="ShipwreckControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShipwreckControllerTest - 2019.07.19 at 11h 41m 46s.xml">
-      <configuration name="ShipwreckControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShipwreckControllerTest - 2019.07.19 at 11h 43m 05s.xml">
       <configuration name="ShipwreckControllerTest" configurationId="JUnit" />
     </history-entry>
@@ -453,6 +418,15 @@
     <history-entry file="ShipwreckRepositoryIntegrationTest - 2019.07.19 at 14h 44m 32s.xml">
       <configuration name="ShipwreckRepositoryIntegrationTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShipwreckControllerWebIntegrationTest - 2019.07.19 at 16h 43m 46s.xml">
+      <configuration name="ShipwreckControllerWebIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShipwreckControllerWebIntegrationTest - 2019.07.19 at 16h 45m 38s.xml">
+      <configuration name="ShipwreckControllerWebIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShipwreckRepositoryIntegrationTest - 2019.07.19 at 16h 53m 48s.xml">
+      <configuration name="ShipwreckRepositoryIntegrationTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,7 +439,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-209" y="-1208" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -480,7 +453,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32981783" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.2358581" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.5397891" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -510,9 +483,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/boot/controller/ShipwreckStub.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -553,13 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -641,6 +604,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/boot/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -653,8 +630,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/boot/ShipwreckRepositoryIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="374">
+          <caret line="22" column="20" selection-start-line="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/boot/ShipwreckControllerWebIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
